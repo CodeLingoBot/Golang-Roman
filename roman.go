@@ -11,7 +11,7 @@ import (
 	"strings"
 )
 
-// Checks if the string is a valid Roman number.
+// IsRoman checks if the string is a valid Roman number.
 // Checks against a hilariuosly complex regex.
 func IsRoman(arg string) bool {
 	if arg == "" {
